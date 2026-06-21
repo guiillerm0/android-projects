@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#28FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/andika_new_basic"
+        android:text="Audio A6"
+        android:textAlignment="center"
+        android:textColor="#5779CC"
+        android:textSize="34sp" />
+
+    <TextView
+        android:layout_width="221dp"
+        android:layout_height="30dp"
+        android:layout_x="93dp"
+        android:layout_y="145dp"
+        android:text="Volumen"
+        android:textAlignment="center"
+        android:textColor="#1C2D4C"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="63dp"
+        android:layout_x="174dp"
+        android:layout_y="181dp"
+        android:src="@drawable/volume" />
+
+    <Button
+        android:id="@+id/button_volume1_a6"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_x="39dp"
+        android:layout_y="195dp"
+        android:backgroundTint="#7AA1CC"
+        android:text="Bajar volumen"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/button_volume2_a6"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_x="274dp"
+        android:layout_y="194dp"
+        android:backgroundTint="#7AA1CC"
+        android:text="Subir volumen"
+        android:textColor="#FBFBFB"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/button_ini_a6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="81dp"
+        android:backgroundTint="#689EC6"
+        android:text="Iniciar / Pausar"
+        android:textColor="#FFFEFE" />
+
+
+
+
+
+
+</AbsoluteLayout>

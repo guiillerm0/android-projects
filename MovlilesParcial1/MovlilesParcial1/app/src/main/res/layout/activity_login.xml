@@ -1,0 +1,50 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="16dp"
+        android:layout_x="-1dp"
+        android:layout_y="1dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/editUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_x="1dp"
+        android:layout_y="178dp"
+        android:hint="Usuario" />
+
+    <EditText
+        android:id="@+id/editTextPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editUser"
+        android:layout_margin="16dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginBottom="16dp"
+        android:layout_x="0dp"
+        android:layout_y="254dp"
+        android:hint="Contraseña"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonIniciarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPass"
+        android:layout_margin="16dp"
+        android:layout_marginTop="139dp"
+        android:layout_marginBottom="16dp"
+        android:layout_x="-2dp"
+        android:layout_y="352dp"
+        android:text="Iniciar Sesión" />
+
+</AbsoluteLayout>

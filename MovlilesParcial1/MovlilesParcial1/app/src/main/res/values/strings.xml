@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MovlilesParcial1</string>
+    <string name="prefs_name">LoginPrefs</string>
+    <string name="key_usuario">user_key</string>
+    <string name="key_contrasena">password_key</string>
+</resources>
